@@ -29,7 +29,7 @@ fn main() {
 
     match result_one {
         Some(result_one) => println!(
-            "PART ONE: {} characters need to be processed before the first start-of-packet marker.",
+            "PART ONE: {} characters need to be processed before the first start-of-packet marker is detected.",
             result_one
         ),
         None => println!("PART ONE: No start-of-packet marker detected."),
@@ -40,7 +40,7 @@ fn main() {
 
     match result_two {
         Some(result_two) => println!(
-            "PART TWO: {} characters need to be processed before the first start-of-packet marker.",
+            "PART TWO: {} characters need to be processed before the first start-of-message marker is detected.",
             result_two
         ),
         None => println!("PART TWO: No start-of-packet marker detected."),
